@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+       <!-- 添加右键菜单
+      <objectContribution
+            objectClass="org.eclipse.jdt.core.IJavaElement"
+            id="fxm.Popup_Menu.contribution1">
+         <menu
+               label="子菜单"
+               path="additions"
+               id="fxm.Popup_Menu.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="操作"
+               class="fxm.popup_menu.popup.actions.NewAction"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction">
+         </action>
+      </objectContribution>
+      -->
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="fxm.Popup_Menu.contribution1"
+            adaptable="true">
+         <menu
+               label="明哥哥的地盘"
+               path="additions"
+               id="fxm.Popup_Menu.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="dao - function get"
+               class="fxm.popup_menu.popup.actions.NewAction0"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction0">
+         </action>
+         <action
+               label="dao - function List"
+               class="fxm.popup_menu.popup.actions.NewAction4"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction4">
+         </action>
+         <action
+               label="dao - function save"
+               class="fxm.popup_menu.popup.actions.NewAction"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction">
+         </action>
+         <action
+               label="dao - function update"
+               class="fxm.popup_menu.popup.actions.NewAction2"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction2">
+         </action>
+         <action
+               label="dao - function delete"
+               class="fxm.popup_menu.popup.actions.NewAction3"
+               menubarPath="fxm.Popup_Menu.menu1/group1"
+               enablesFor="1"
+               id="fxm.Popup_Menu.newAction3">
+         </action>
+      </objectContribution>
+      
+   </extension>
+
+</plugin>
